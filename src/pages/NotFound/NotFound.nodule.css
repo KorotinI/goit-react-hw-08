@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .link {
+    color: #84336f;
+    transition: color 300ms ease-in-out;
+  }
+  
+  .link:hover,
+  .link:focus {
+    color: #672858a9;
+  }
