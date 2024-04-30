@@ -1,0 +1,29 @@
+.userMenu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .menuBtn {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #84336f;
+    -webkit-box-shadow: 0px 0px 17px -3px rgba(83, 21, 76, 1);
+    -moz-box-shadow: 0px 0px 17px -3px rgba(83, 21, 76, 1);
+    box-shadow: 0px 0px 17px -3px rgba(83, 21, 76, 1);
+    border-radius: 10px;
+    background-color: transparent;
+    color: #84336f;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 8px;
+    transition: border-color 300ms ease, color 300ms ease;
+  }
+  
+  .menuBtn:hover,
+  .menuBtn:focus {
+    color: #672858a9;
+    border-color: #541444aa;
+  }

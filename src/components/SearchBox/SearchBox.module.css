@@ -1,0 +1,27 @@
+.searchWrap {
+    width: max-content;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .searchTitle {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  
+  .searchInput {
+    width: 250px;
+    border: 2px solid #84336f;
+    border-radius: 8px;
+    outline: transparent;
+    background-color: transparent;
+    color: #ffffff69;
+    padding: 8px;
+    transition: border-color 300ms ease;
+  }
+  
+  .searchInput:focus {
+    border-color: #541444aa;
+  }

@@ -1,0 +1,92 @@
+.contactBtn {
+    display: flex;
+    width: 80px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #84336f;
+    -webkit-box-shadow: 0px 0px 17px -3px rgba(83, 21, 76, 1);
+    -moz-box-shadow: 0px 0px 17px -3px rgba(83, 21, 76, 1);
+    box-shadow: 0px 0px 17px -3px rgba(83, 21, 76, 1);
+    border-radius: 10px;
+    background-color: transparent;
+    color: #84336f;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 8px;
+    transition: border-color 300ms ease, color 300ms ease;
+  }
+  
+  .contactBtn:hover,
+  .contactBtn:focus {
+    color: #672858a9;
+    border-color: #541444aa;
+  }
+  
+  .contactName {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .contactName > svg {
+    width: 24px;
+    margin-right: 5px;
+  }
+  
+  .contactNumber {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contactNumber > svg {
+    width: 24px;
+    margin-right: 5px;
+  }
+  
+  .modal {
+    display: flex;
+    width: 300px;
+    height: 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    position: absolute;
+    border: 2px solid #2f2828;
+    border-radius: 12px;
+    background-color: #000000;
+    left: 50%;
+    top: 50%;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+  }
+  
+  .btnWrap {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .modalBtn {
+    display: flex;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #84336f;
+    -webkit-box-shadow: 0px 0px 17px -3px rgba(83, 21, 76, 1);
+    -moz-box-shadow: 0px 0px 17px -3px rgba(83, 21, 76, 1);
+    box-shadow: 0px 0px 17px -3px rgba(83, 21, 76, 1);
+    border-radius: 10px;
+    background-color: transparent;
+    color: #84336f;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 8px;
+    transition: border-color 300ms ease, color 300ms ease;
+  }
+  
+  .modalBtn:hover,
+  .modalBtn:focus {
+    color: #672858a9;
+    border-color: #541444aa;
+  }
