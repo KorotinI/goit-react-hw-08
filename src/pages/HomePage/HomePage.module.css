@@ -11,17 +11,4 @@
     margin-right: auto;
   }
   
-  .homeParagraf {
-    display: flex;
-    gap: 12px;
-  }
   
-  .link {
-    color: #84336f;
-    transition: color 300ms ease-in-out;
-  }
-  
-  .link:hover,
-  .link:focus {
-    color: #672858a9;
-  }
