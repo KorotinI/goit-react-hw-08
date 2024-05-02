@@ -18,7 +18,7 @@
   
   .formInput {
     width: 200px;
-    border: 2px solid #84336f;
+    border: 2px solid #40fc72;
     border-radius: 8px;
     outline: transparent;
     background-color: transparent;
@@ -32,7 +32,7 @@
   }
   
   .formInput:focus {
-    border-color: #541444aa;
+    border-color: #3aff24aa;
   }
   
   .errorMassage {
@@ -45,13 +45,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #84336f;
-    -webkit-box-shadow: 0px 0px 17px -3px rgba(83, 21, 76, 1);
-    -moz-box-shadow: 0px 0px 17px -3px rgba(83, 21, 76, 1);
-    box-shadow: 0px 0px 17px -3px rgba(83, 21, 76, 1);
+    border: 2px solid #40fc72;
+    -webkit-box-shadow: 0px 0px 17px -3px #40fc72;
+    -moz-box-shadow: 0px 0px 17px -3px #40fc72;
+    box-shadow: 0px 0px 17px -3px #40fc72;
     border-radius: 10px;
     background-color: transparent;
-    color: #84336f;
+    color: #40fc72;
     font-size: 14px;
     text-transform: uppercase;
     padding: 12px;
@@ -62,6 +62,6 @@
   
   .formBtn:hover,
   .formBtn:focus {
-    color: #672858a9;
-    border-color: #541444aa;
+    color: #40fc72;
+    border-color: #3aff24aa;
   }

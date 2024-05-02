@@ -13,7 +13,7 @@
   
   .searchInput {
     width: 250px;
-    border: 2px solid #84336f;
+    border: 2px solid #40fc72;
     border-radius: 8px;
     outline: transparent;
     background-color: transparent;
@@ -23,5 +23,5 @@
   }
   
   .searchInput:focus {
-    border-color: #541444aa;
+    border-color: #40fc72;
   }

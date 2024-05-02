@@ -10,14 +10,14 @@
   }
   
   .navLink.active {
-    border: 2px solid #84336f;
+    border: 2px solid #40fc72;
     border-radius: 8px;
-    color: #84336f;
+    color: #40fc72;
     padding: 8px;
   }
   
   .navLink.link {
-    border: 2px solid #ffffff69;
+    border: 2px solid #40fc72;
     border-radius: 8px;
     padding: 8px;
     transition: all 300ms ease-in-out;
@@ -25,6 +25,6 @@
   
   .navLink.link:hover,
   .navLink.link:focus {
-    border-color: #84336f;
-    color: #84336f;
+    border-color: #0cc844;
+    color: #40fc72;
   }
